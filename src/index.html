@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <link rel="stylesheet" href="assets/style/style.css"> <!-- style -->
+    <script src="https://kit.fontawesome.com/1a1a4ebdab.js" crossorigin="anonymous"></script> <!-- icons -->
+</head>
+
+<body>
+    <section class="container">
+        <section class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Welcome back!</h2>
+                <p class="description description-primary">To keep connected with us</p>
+                <p class="description description-primary">please login with yours personal info</p>
+                <button id="signin" class="btn btn-primary" type="button"
+                    onclick="document.querySelector('body').className = 'sign-in'">sing in</button>
+            </div> <!-- first column -->
+            <div class="second-column">
+                <h2 class="title title-secondary">Create account</h2>
+                <div class="social-media"></div>
+                <li class="list-social-media">
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media facebook-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media google-icon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media linkedin-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media twitter-icon">
+                            <i class="fab fa-twitter"></i>
+                        </il>
+                    </a>
+                </li> <!-- social media -->
+                <p class="description description-secondary">or use your email for registration:</p>
+                <form class="form">
+                    <label class="label-input icon-modify">
+                        <i class="far fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label class="label-input icon-modify">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="E-mail" name="email">
+                    </label>
+                    <label class="label-input icon-modify">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <a href="#" class="forgot-password">forgot your password?</a>
+                    <button class="btn btn-secondary">sing in</button>
+                </form> <!-- form -->
+                <!-- form -->
+            </div> <!-- second column -->
+        </section> <!-- first content -->
+        <section class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Hello, friend!</h2>
+                <p class="description description-primary">Enter your personal datails</p>
+                <p class="description description-primary">and start your journay with us</p>
+                <button id="signup" class="btn btn-primary" type="button"
+                    onclick="document.querySelector('body').className = 'sign-up'">sing in</button>
+            </div> <!-- first column -->
+            <div class="second-column">
+                <h2 class="title title-secondary">sign in to developer</h2>
+                <div class="social-media"></div>
+                <li class="list-social-media">
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media facebook-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media google-icon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media linkedin-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </il>
+                    </a>
+                    <a href="#" class="link-social-media">
+                        <il class="item-social-media twitter-icon">
+                            <i class="fab fa-twitter"></i>
+                        </il>
+                    </a>
+                </li> <!-- social media -->
+                <p class="description description-secondary">or use your email acount:</p>
+                <form class="form">
+                    <label class="label-input icon-modify">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="E-mail">
+                    </label>
+                    <label class="label-input icon-modify">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <a href="#" class="forgot-password">forgot your password?</a>
+                    <button class="btn btn-secondary">sing in</button>
+                </form> <!-- form -->
+            </div> <!-- second column -->
+        </section> <!-- section content -->
+    </section>
+</body>
+
+</html>
